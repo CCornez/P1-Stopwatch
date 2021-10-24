@@ -34,6 +34,7 @@ const count = () => {
 };
 
 const reset = () => {
+  clearInterval(timer);
   miliseconds = 00;
   seconds = 00;
   minutes = 00;
